@@ -40,6 +40,9 @@ Many recommendation systems are black boxes. This project demonstrates a transpa
 ├── Dockerfile
 └── llmops-k8s.yaml            # Example Kubernetes manifest
 ```
+## workflow
+![alt text](<flow chart.jpg>)
+
 
 ## How It Works
 1. Data preprocessing (`src/data_loader.py`)
