@@ -40,7 +40,7 @@ Many recommendation systems are black boxes. This project demonstrates a transpa
 ├── Dockerfile
 └── llmops-k8s.yaml            # Example Kubernetes manifest
 ```
-## workflow
+## Workflow
 ![alt text](<flow chart.jpg>)
 
 
