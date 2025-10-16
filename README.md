@@ -43,6 +43,29 @@ Many recommendation systems are black boxes. This project demonstrates a transpa
 ## Workflow
 ![alt text](<flow chart.jpg>)
 
+## Tech Stack
+
+Groq → LLM (free)
+
+HuggingFace → Embedding Model
+
+LangChain → Generative AI Framework to interact with LLM
+
+GCP VM → Virtual Machine that can be accessed on cloud. It's a service offered by Google Cloud.
+
+Minikube → For making a Kubernetes Cluster where you can deploy your application
+
+Streamlit → To make UI or frontend of the app
+
+Docker → For containerization of the app during deployment
+
+Grafana Cloud → Monitoring your Kubernetes Clusters (14 days free trial)
+
+Chroma DB → Local Vector Store for storing Embeddings
+
+Kubectl → Command Line Interface to interact with your Kubernetes
+
+GitHub → It will work as a SCM (Source Control Management) for your project
 
 ## How It Works
 1. Data preprocessing (`src/data_loader.py`)
